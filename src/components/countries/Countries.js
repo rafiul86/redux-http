@@ -11,6 +11,7 @@ const Countries = ({fetchData ,countries, err,isLoading}) => {
     },[])
     return (
         <div>
+            <h1>{err}</h1>
            <div>
             {
                 isLoading && <h1>Loading ...</h1>

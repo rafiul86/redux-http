@@ -3,7 +3,7 @@ import { countReducer } from "./countReducer";
 import { fetchReducer } from "./fetchReducer";
 
 
-export default combineReducers({
+export  const allReducer = combineReducers({
    fetch :  fetchReducer ,
    count :  countReducer
 })
